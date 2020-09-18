@@ -1,4 +1,4 @@
-import express from './node_modules/express/index.js'
+import express from 'express'
 import {router as tipsRouter} from './routes/tips.js'
 
 const app = express()
