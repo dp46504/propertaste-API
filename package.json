@@ -2,18 +2,19 @@
   "name": "propertaste",
   "version": "1.0.0",
   "description": "",
-  "main":"./dist/index.js",
-  "type":"module",
+  "main": "./dist/index.js",
+  "type": "module",
   "scripts": {
-  	"build":"rimraf ./dist && babel ./src -d ./dist"
+    "build": "rimraf ./dist && babel ./src -d ./dist"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "express": "^4.17.1",
     "rimraf": "^3.0.2"
   }
 }
