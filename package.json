@@ -2,7 +2,7 @@
   "name": "propertaste",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/index.js",
+  "type":"module",
   "scripts": {
   	"build":"rimraf ./dist && babel ./src -d ./dist"
   },
